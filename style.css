@@ -1,0 +1,60 @@
+body{
+    
+    background-color: rgb(60, 60, 219);
+}
+h1{
+    background-color: rgb(252, 252, 252);
+    margin-top: 90px;
+    padding-left: 38%;
+    font-size: 40px;
+}
+.name{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: aliceblue;
+    margin-top: 32px;
+    margin-left: 32%;
+    margin-right: 33%;
+    /* height: 80px; */
+}
+#toDoInput{
+    width: 60%;
+    padding: 12px;
+    margin-left: 22px;
+    margin-top: 12px;
+    border-radius: 7px;
+    border: 2px solid rgb(42, 42, 245);
+}
+#addButton{
+    background-color: rgb(33, 33, 248);
+    border-style: none;
+    color: rgb(245, 249, 252);
+    border-radius: 7px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 10px;
+    width: 80px;
+}
+li{
+    background-color: rgb(160, 156, 156);
+    padding: 16px;
+    border-radius: 6px;
+    list-style: none;
+    border: 1px solid rgb(74, 74, 248);
+    width: 390px;
+    margin: 20px;
+    
+}
+#toDoList{
+    padding: 5px;
+    margin-top: 8px;
+}
+.fa-solid{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    float: right;
+    padding: 9px;
+    margin-top: -8px;
+    border-radius: 4px;
+}
