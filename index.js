@@ -23,8 +23,21 @@ button.addEventListener('click',function() {
             arr.splice(i,1);
             list.removeChild(li);
         })
-        
 
-        list.appendChild(li);
-    }
+        list.appendChild(li)
+
+        let editbutton=document.createElement("i")
+        editbutton.classList.add("fa-regular","fa-pen-to-square");
+        li.appendChild(editbutton)
+        editbutton.addEventListener('click',function(){
+            let newValue=prompt('Edit you list:',arr[i]);
+            if(newValue){
+                li.childNodes[0].textContent=newValue
+                arr[i]=newValue
+                
+
+            }
+        })
+
+   }
 })

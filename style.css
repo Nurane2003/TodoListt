@@ -34,6 +34,7 @@ h1{
     font-size: 15px;
     padding: 10px;
     width: 80px;
+    
 }
 li{
     background-color: rgb(160, 156, 156);
@@ -57,4 +58,14 @@ li{
     padding: 9px;
     margin-top: -8px;
     border-radius: 4px;
+}
+.fa-regular{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    float: right;
+    padding: 9px;
+    margin-top: -8px;
+    border-radius: 4px;
+    margin-right: 10px;
 }
